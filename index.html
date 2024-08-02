@@ -15,7 +15,7 @@
 <body>
     <header class="header">
         <nav class="navbar">
-            <div class="container">
+            <div class="container navbar-container full-width-in-mobile-m">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
                         data-target="#navbar-collapse" aria-expanded="false">
@@ -27,27 +27,27 @@
                     <a class="navbar-brand" href="#"><img src="/images/logo.png" alt="Brand Logo"></a>
                 </div>
                 <div class="collapse navbar-collapse" id="navbar-collapse">
-                    <ul class="nav navbar-nav my-nav">
-                        <li class="active"><a href="#">SHOP</a></li>
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">SHOP</a></li>
                         <li><a href="#">PRODUCT</a></li>
                         <li><a href="#">BLOG</a></li>
                         <li><a href="#"><strong>BUY NOW!</strong></a></li>
                     </ul>
 
-                    <ul class="nav navbar-nav my-nav icon-bar navbar-right">
+                    <ul class="nav navbar-nav icon-bar navbar-right">
                         <li><a href="#"><i class="fa fa-search nav-icons" aria-hidden="true"></i></a></li>
                         <li><a href="#"><i class="fa fa-shopping-cart nav-icons" aria-hidden="true"></i><sup
                                     class="badge">298</sup></a></li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle profile-name" data-toggle="dropdown" role="button"
+                            <a href="#" class="dropdown-toggle profile" data-toggle="dropdown" role="button"
                                 aria-haspopup="true" aria-expanded="false"><i class="fa fa-user-circle nav-icon"
                                     aria-hidden="true"></i>
-                                <span> Hi Vinayak Suryavanshi</span> <span class="caret"></span></a>
+                                <span class="user-name"> Hi Vinayak Suryavanshi</span> <span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="#">My Account</a></li>
                                 <li><a href="#">My Wish List</a></li>
                                 <li><a href="#">My Orders</a></li>
-                                <li><a href="#">Sign out</a></li>
+                                <li><a class="signout-option" href="#">Sign out</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -56,15 +56,15 @@
         </nav>
     </header>
     <main class="main-content">
-        <div class="container main-container">
+        <div class="container main-container full-width-in-mobile-m">
             <nav class="breadcrumb-nav">
                 <span>Home > Cosmetic - Facial > Waterproof Cream Roller</span>
             </nav>
-            <section class="product-container">
+            <section class="row product-container mb-20">
                 <div class="product-display col-md-5 col-xs-12">
                     <div class="product-details">
                         <div class="product-image-wrapper">
-                            <img class="product-image" src="/images/product-main.jpg" alt="Main Product Image">
+                            <img class="product-image img-responsive" src="/images/product-main.jpg" alt="Main Product Image">
                         </div>
                         <div class="thumbnail-gallery-wrapper">
                             <div class="thumbnail-gallery">
@@ -85,20 +85,20 @@
                 </div>
                 <section class="product-description col-md-7 col-xs-12">
                     <h3 class="product-title">Waterproof Cream Roller</h3>
-                    <div class="product-status">
-                        <span class="availability-status">In Stock</span>
+                    <div class="product-status mb-10 full-width-in-mobile-s">
+                        <span class="product-availability-status">In Stock</span>
                         <span class="product-sku">SKU: 43-natural</span>
-                        <div class="product-rating">
-                            <span class="fa fa-star rating-star"></span>
-                            <span class="fa fa-star rating-star"></span>
-                            <span class="fa fa-star rating-star"></span>
-                            <span class="fa fa-star rating-star"></span>
+                        <div class="product-reviews">
+                            <span class="fa fa-star product-rating"></span>
+                            <span class="fa fa-star product-rating"></span>
+                            <span class="fa fa-star product-rating"></span>
+                            <span class="fa fa-star product-rating"></span>
                             <span class="fa fa-star"></span>
                             <span>32 reviews</span>
                         </div>
                     </div>
-                    <h4 class="product-price">Price: Rs 2,373</h4>
-                    <div class="product-description">
+                    <h4 class="product-price mb-20">Price: Rs 2,373</h4>
+                    <div class="product-description mb-20">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque culpa dolore excepturi minus
                             odit
                             dignissimos enim voluptatem voluptate. Velit architecto, optio qui corporis hic aut maxime?
@@ -114,7 +114,7 @@
                             Corporis, aspernatur?</p>
                     </div>
                     <h5 class="color-category">Colors: Natural</h5>
-                    <div class="product-shades">
+                    <div class="product-shades mb-20 full-width-in-mobile-m">
                         <div class="shades-category">
                             <span class="shade shade-1 active"></span>
                             <span class="shade shade-2"></span>
@@ -122,20 +122,20 @@
                         </div>
                         <a href="#" class="query-link">Ask questions about this product</a>
                     </div>
-                    <div class="cart-options">
+                    <div class="cart-options mb-20 full-width-in-mobile-s">
                         <div class="quantity-selector">
                             <button class="btn btn-default plus-btn no-border" type="button" name="button">-</button>
                             <input type="text" class="quantity-input no-border" name="quantity" value="1">
                             <button class="btn btn-default minus-btn no-border" type="button" name="button">+</button>
                         </div>
-                        <button class="btn btn-primary add-to-cart-btn">ADD TO CART</button>
+                        <button class="btn btn-primary btn-large add-to-cart-btn">ADD TO CART</button>
                     </div>
                     <i class="fa fa-heart-o" aria-hidden="true"></i>
                     <a href="#" class="query-link">Add to wishlist</a>
                 </section>
             </section>
 
-            <section class="support-section">
+            <section class="support-section col-md-12 mb-20">
                 <div class="support-item col-md-3 col-sm-6 col-xs-12">
                     <img class="img img-responsive" src="/images/safe-payment.jpg" alt="Safe Payment">
                     <div class="support-info">
@@ -166,8 +166,8 @@
                 </div>
             </section>
 
-            <section class="recommended-products">
-                <div class="title-section">
+            <section class="recommended-products mb-20">
+                <div class="title-section mb-10">
                     <h3 class="product-heading">Recommended Products</h3>
                     <span class="product-sub-heading">Lorem ipsum dolor sit amet. consectetur adipisicing elit</span>
                 </div>
@@ -205,61 +205,61 @@
         </div>
     </main>
     <footer class="footer">
-        <div class="container footer-container">
-            <div class="company-info col-md-3 col-sm-4">
-                <a class="navbar-brand footer-brand-logo" href="#"><img src="/images/logo-footer.png"
-                        alt="Brand Logo"></a>
-                <div class="address-section col-md-8">
-                    <div class="address-item">
-                        <i class="fa fa-map-marker" aria-hidden="true"></i>
-                        <span>55 lorem ipsum dolar 2568 street, 23568 NY</span>
-                    </div>
-                    <div class="address-item">
-                        <i class="fa fa-phone" aria-hidden="true"></i>
-                        <span>(440) 000 000 0000</span>
-                    </div>
-                    <div class="address-item">
-                        <i class="fa fa-envelope" aria-hidden="true"></i>
-                        <span>sales@loremsite.com</span>
+        <div class="footer-navigation">
+            <div class="container footer-navigation-container full-width-in-mobile-m">
+                <div class="company-info col-md-3 col-sm-4 mb-10">
+                    <a class="navbar-brand footer-brand-logo" href="#"><img src="/images/logo-footer.png"
+                            alt="Brand Logo"></a>
+                    <div class="address-section">
+                        <div class="address-item mb-10">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            <span>55 lorem ipsum dolar 2568 street, 23568 NY</span>
+                        </div>
+                        <div class="address-item mb-10">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                            <span>(440) 000 000 0000</span>
+                        </div>
+                        <div class="address-item mb-10">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                            <span>sales@loremsite.com</span>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="nav-links col-md-3 col-sm-4">
-                <h4 class="nav-heading">Information</h4>
-                <ul class="nav-list">
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">Careers</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Terms and Conditions</a></li>
-                    <li><a href="#">My Account</a></li>
-                </ul>
-            </div>
-            <div class="nav-links col-md-3 col-sm-4">
-                <h4 class="nav-heading">Customer Services</h4>
-                <ul class="nav-list">
-                    <li><a href="#">Request Personal Data</a></li>
-                    <li><a href="#">FAQs</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">Orders and Returns</a></li>
-                    <li><a href="#">Support Center</a></li>
-                </ul>
-            </div>
-            <div class="nav-links col-md-3 col-sm-12">
-                <h4 class="nav-heading">Newsletters</h4>
-                <div class="nav-list">
-                    <span class="email-desc">Enter your email to recieve daily news and get 5% coupon for all
-                        items</span>
-                    <div class="email-group">
-                        <input type="email" class="form-control email-input" name="email-id"
-                            placeholder="Enter Email Address">
-                        <button class="btn btn-primary subscribe-btn">Subscribe</button>
+                <div class="nav-links col-md-3 col-sm-4 mb-10">
+                    <h4 class="nav-heading">Information</h4>
+                    <ul class="nav-list">
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms and Conditions</a></li>
+                        <li><a href="#">My Account</a></li>
+                    </ul>
+                </div>
+                <div class="nav-links col-md-3 col-sm-4 mb-10">
+                    <h4 class="nav-heading">Customer Services</h4>
+                    <ul class="nav-list">
+                        <li><a href="#">Request Personal Data</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Orders and Returns</a></li>
+                        <li><a href="#">Support Center</a></li>
+                    </ul>
+                </div>
+                <div class="nav-links col-md-3 col-sm-12 mb-10">
+                    <h4 class="nav-heading">Newsletters</h4>
+                    <div class="nav-list">
+                        <span class="email-desc">Enter your email to recieve daily news and get 5% coupon for all
+                            items</span>
+                        <div class="email-group">
+                            <input type="email" class="form-control email-input mb-15 full-width-in-mobile-s" name="email-id"
+                                placeholder="Enter Email Address">
+                            <button class="btn btn-primary btn-medium subscribe-btn full-width-in-mobile-s">Subscribe</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </footer>
-    <footer class="footer-copyright">
-        <div class="container copyright-container">
+        <div class="container copyright-container full-width-in-mobile-m">
             <div class="copyright-text col-md-6 col-sm-8 col-xs-12">
                 <span>&copy; 2021 Mademoiselle. All Rights Reserved</span>
                 <span>Ecommerce made by AKSTech | Designed by Systenics Solutions</span>
