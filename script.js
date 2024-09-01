@@ -9,7 +9,7 @@ $(document).ready(function(){
         $(this).addClass('active');
     });
 
-    $('.plus-btn').on('click', function() {
+    $('.minus-btn').on('click', function() {
         var $quantityInput = $(this).siblings('.quantity-input');
         var currentVal = parseInt($quantityInput.val());
         if (!isNaN(currentVal)) {
@@ -19,7 +19,7 @@ $(document).ready(function(){
         }
     });
 
-    $('.minus-btn').on('click', function() {
+    $('.plus-btn').on('click', function() {
         var $quantityInput = $(this).siblings('.quantity-input');
         var currentVal = parseInt($quantityInput.val());
         if (!isNaN(currentVal) && currentVal > 1) {
